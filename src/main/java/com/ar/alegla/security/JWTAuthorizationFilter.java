@@ -23,7 +23,7 @@ import io.jsonwebtoken.UnsupportedJwtException;
 
 public class JWTAuthorizationFilter extends OncePerRequestFilter{
 
-	private final String HEADER = "Authorization";
+	private final String HEADER = "Authentication";
 	private final String PREFIX = "JWT ";
 	private final String SECRETKEY = "alegla/github/Secretkey.key";
 	
